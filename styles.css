@@ -1,0 +1,150 @@
+
+/* GENERAL PAGE */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* MAIN TITLE */
+h1 {
+    color: #e60000;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* MESSAGES HEADING */
+h3 {
+    color: #e60000;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+/* MESSAGE LIST */
+.messages {
+    list-style: none;
+    padding: 0;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* INDIVIDUAL MESSAGE */
+.message {
+    background-color: #222;
+    border: 1px solid #e60000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* MESSAGE TEXT */
+.message span {
+    display: inline-block;
+    margin: 8px;
+    font-size: 16px;
+}
+
+/* MESSAGE NAME */
+.message span:first-child {
+    color: #ff3333;
+    font-weight: bold;
+}
+
+/* MESSAGE CONTENT */
+.message span:nth-child(2) {
+    color: white;
+}
+
+/* ICONS */
+.fa {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* THUMBS UP */
+.fa-thumbs-up {
+    color: #00cc66;
+}
+
+/* THUMBS DOWN */
+.fa-thumbs-down {
+    color: #ff3333;
+}
+
+/* DELETE ICON */
+.fa-trash {
+    color: #aaa;
+}
+
+/* ICON HOVER */
+.fa:hover {
+    opacity: 0.6;
+}
+
+/* ADD MESSAGE FORM */
+form {
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+/* INPUT FIELDS */
+input {
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* SUBMIT BUTTON */
+button {
+    background-color: #e60000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    background-color: #990000;
+}
+
+/* MOBILE SCREENS */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .message {
+        padding: 15px;
+    }
+
+    input {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 90%;
+    }
+}
